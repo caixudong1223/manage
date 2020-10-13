@@ -6,7 +6,7 @@ import request from '@/utils/request'
  */
 export function pageRoles(data) {
   return request({
-    url: '/hellozj-admin/roles/pageRoles',
+    url: '/water-facade-user/roles/pageRoles',
     method: 'post',
     data
   })
@@ -18,7 +18,7 @@ export function pageRoles(data) {
  */
 export function getRoleDetail(params) {
   return request({
-    url: '/hellozj-admin/roles/getRoleDetail',
+    url: '/water-facade-user/roles/getRoleDetail',
     method: 'post',
     params
   })
@@ -30,7 +30,7 @@ export function getRoleDetail(params) {
  */
 export function addRole(data) {
   return request({
-    url: '/hellozj-admin/roles/addRole',
+    url: '/water-facade-user/roles/addRole',
     method: 'post',
     data
   })
@@ -42,7 +42,7 @@ export function addRole(data) {
  */
 export function updateRole(data) {
   return request({
-    url: `/hellozj-admin/roles/updateRole`,
+    url: `/water-facade-user/roles/updateRole`,
     method: 'post',
     data
   })
@@ -54,7 +54,7 @@ export function updateRole(data) {
  */
 export function deleteRole(params) {
   return request({
-    url: `/hellozj-admin/roles/deleteRole`,
+    url: `/water-facade-user/roles/deleteRole`,
     method: 'post',
     params
   })

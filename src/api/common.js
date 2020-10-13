@@ -6,7 +6,7 @@ import request from "@/utils/request";
  */
 export function queryCityAreaInfoList(params) {
   return request({
-    url: "/hellozj-admin/areaInfo/queryCityAreaInfoList",
+    url: "/water-facade-user/areaInfo/queryCityAreaInfoList",
     method: "post",
     params
   });
@@ -19,7 +19,7 @@ export function queryCityAreaInfoList(params) {
  */
 export function queryCityAreaTree(params) {
   return request({
-    url: "/hellozj-admin/areaInfo/queryCityAreaTree",
+    url: "/water-facade-user/areaInfo/queryCityAreaTree",
     method: "post",
     params
   });

@@ -3,7 +3,7 @@ import request from "@/utils/request";
 // 获取当前用户菜单
 export function selectRoleMenus(data) {
   return request({
-    url: `/hellozj-admin/roleMenu/selectRoleMenus`,
+    url: `/water-facade-user/roleMenu/selectRoleMenus`,
     method: "post",
     data
   });
@@ -12,7 +12,7 @@ export function selectRoleMenus(data) {
 // 获取所有菜单
 export function selectAllMenus(params) {
   return request({
-    url: `/hellozj-admin/menu/selectAllMenus`,
+    url: `/water-facade-user/menu/selectAllMenus`,
     method: "post",
     params
   });
@@ -21,7 +21,7 @@ export function selectAllMenus(params) {
 // 获取菜单详情
 export function selectMenuDetail(params) {
   return request({
-    url: `/hellozj-admin/menu/selectMenuDetail`,
+    url: `/water-facade-user/menu/selectMenuDetail`,
     method: "post",
     params
   });
@@ -30,7 +30,7 @@ export function selectMenuDetail(params) {
 // 新增菜单
 export function addMenu(data) {
   return request({
-    url: `/hellozj-admin/menu/addMenu`,
+    url: `/water-facade-user/menu/addMenu`,
     method: "post",
     data
   });
@@ -39,7 +39,7 @@ export function addMenu(data) {
 // 删除菜单
 export function delMenu(params) {
   return request({
-    url: `/hellozj-admin/menu/delMenu`,
+    url: `/water-facade-user/menu/delMenu`,
     method: "post",
     params
   });
@@ -48,7 +48,7 @@ export function delMenu(params) {
 // 修改菜单
 export function updateMenu(data) {
   return request({
-    url: `/hellozj-admin/menu/updateMenu`,
+    url: `/water-facade-user/menu/updateMenu`,
     method: "post",
     data
   });
@@ -60,7 +60,7 @@ export function updateMenu(data) {
  */
 export function selectRoleMenusByRoleId(params) {
   return request({
-    url: `/hellozj-admin/roleMenu/selectRoleMenusByRoleId`,
+    url: `/water-facade-user/roleMenu/selectRoleMenusByRoleId`,
     method: "post",
     params
   });
@@ -72,7 +72,7 @@ export function selectRoleMenusByRoleId(params) {
  */
 export function selectMenuIdsByRoleId(params) {
   return request({
-    url: `/hellozj-admin/roleMenu/selectMenuIdsByRoleId`,
+    url: `/water-facade-user/roleMenu/selectMenuIdsByRoleId`,
     method: "post",
     params
   });
@@ -83,7 +83,7 @@ export function selectMenuIdsByRoleId(params) {
  */
 export function addRoleMenus(data) {
   return request({
-    url: `/hellozj-admin/roleMenu/addRoleMenus`,
+    url: `/water-facade-user/roleMenu/addRoleMenus`,
     method: "post",
     data
   });

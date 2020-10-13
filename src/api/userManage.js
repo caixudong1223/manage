@@ -12,7 +12,7 @@ import request from "@/utils/request";
  */
 export function selectAllManageInfo(data) {
   return request({
-    url: `/hellozj-admin/manage/selectAllManageInfo`,
+    url: `/water-facade-user/userProfile/pageBySelective`,
     method: "post",
     data
   });
@@ -24,7 +24,7 @@ export function selectAllManageInfo(data) {
  */
 export function selectAllStoreUserInfo(data) {
   return request({
-    url: `/hellozj-admin/manage/selectAllStoreUserInfo`,
+    url: `/water-facade-user/manage/selectAllStoreUserInfo`,
     method: "post",
     data
   });
@@ -36,7 +36,7 @@ export function selectAllStoreUserInfo(data) {
  */
 export function selectManageRoles(data) {
   return request({
-    url: `/hellozj-admin/roles/selectManageRoles`,
+    url: `/water-facade-user/roles/selectManageRoles`,
     method: "post",
     data
   });
@@ -48,7 +48,7 @@ export function selectManageRoles(data) {
  */
 export function selectStoreRoles(data) {
   return request({
-    url: `/hellozj-admin/roles/selectStoreRoles`,
+    url: `/water-facade-user/roles/selectStoreRoles`,
     method: "post",
     data
   });
@@ -60,7 +60,7 @@ export function selectStoreRoles(data) {
  */
 export function addUserRole(data) {
   return request({
-    url: `/hellozj-admin/manage/addUserRole`,
+    url: `/water-facade-user/manage/addUserRole`,
     method: "post",
     data
   });
@@ -72,7 +72,7 @@ export function addUserRole(data) {
  */
 export function addManage(data) {
   return request({
-    url: `/hellozj-admin/manage/addManage`,
+    url: `/water-facade-user/manage/addManage`,
     method: "post",
     data
   });
@@ -84,7 +84,7 @@ export function addManage(data) {
  */
 export function addStoreUser(data) {
   return request({
-    url: `/hellozj-admin/manage/addStoreUser`,
+    url: `/water-facade-user/manage/addStoreUser`,
     method: "post",
     data
   });
@@ -96,7 +96,7 @@ export function addStoreUser(data) {
  */
 export function updateManageInfo(data) {
   return request({
-    url: `/hellozj-admin/manage/updateManageInfo`,
+    url: `/water-facade-user/manage/updateManageInfo`,
     method: "post",
     data
   });
@@ -108,7 +108,7 @@ export function updateManageInfo(data) {
  */
 export function updateStoreUserInfo(data) {
   return request({
-    url: `/hellozj-admin/manage/updateStoreUserInfo`,
+    url: `/water-facade-user/manage/updateStoreUserInfo`,
     method: "post",
     data
   });
@@ -120,7 +120,7 @@ export function updateStoreUserInfo(data) {
  */
 export function deleteManage(params) {
   return request({
-    url: `/hellozj-admin/manage/deleteManage`,
+    url: `/water-facade-user/manage/deleteManage`,
     method: "post",
     params
   });
@@ -132,7 +132,7 @@ export function deleteManage(params) {
  */
 export function deleteStoreUser(params) {
   return request({
-    url: `/hellozj-admin/manage/deleteStoreUser`,
+    url: `/water-facade-user/manage/deleteStoreUser`,
     method: "post",
     params
   });
@@ -144,7 +144,7 @@ export function deleteStoreUser(params) {
  */
 export function getManageInfoByUserId(params) {
   return request({
-    url: `/hellozj-admin/manage/getManageInfoByUserId`,
+    url: `/water-facade-user/manage/getManageInfoByUserId`,
     method: "post",
     params
   });
@@ -156,7 +156,7 @@ export function getManageInfoByUserId(params) {
  */
 export function updateUserLogin(data) {
   return request({
-    url: `/hellozj-admin/manage/updateUserLogin`,
+    url: `/water-facade-user/manage/updateUserLogin`,
     method: "post",
     data
   });

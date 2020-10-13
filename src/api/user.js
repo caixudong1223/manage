@@ -6,7 +6,7 @@ import request from '@/utils/request'
  */
 export function login(params) {
   return request({
-    url: `/hellozj-login/user/login`,
+    url: `/water-facade-user/user/login`,
     method: 'post',
     params
   })
@@ -17,7 +17,7 @@ export function login(params) {
  */
 export function getCaptcha() {
   return request({
-    url: `/hellozj-login/user/captcha.jpg`,
+    url: `/water-facade-user/user/captcha.jpg`,
     method: 'get',
     params: {
       st: new Date().getTime()
@@ -31,7 +31,7 @@ export function getCaptcha() {
  */
 export function loginSms(params) {
   return request({
-    url: `/hellozj-login/user/login-sms`,
+    url: `/water-facade-user/user/login-sms`,
     method: 'post',
     params
   })
@@ -43,7 +43,7 @@ export function loginSms(params) {
  */
 export function getSmsCode(params) {
   return request({
-    url: `/hellozj-login/sms/getSmsCode`,
+    url: `/water-facade-user/sms/getSmsCode`,
     method: 'post',
     params
   })
@@ -54,7 +54,7 @@ export function getSmsCode(params) {
  */
 export function getInfo() {
   return request({
-    url: `/hellozj-admin/manage/getManageInfo`,
+    url: `/water-facade-user/userProfile/getCurrentUserInfo`,
     method: 'post',
     params: {}
   })
@@ -65,7 +65,7 @@ export function getInfo() {
  */
 export function logout() {
   return request({
-    url: `/hellozj-login/user/logout`,
+    url: `/water-facade-user/user/logout`,
     method: 'post'
   })
 }
@@ -76,7 +76,7 @@ export function logout() {
  */
 export function getPhoneCode(params) {
   return request({
-    url: `/hellozj-login/sms/getPhoneCode`,
+    url: `/water-facade-user/sms/getPhoneCode`,
     method: 'post',
     params
   })

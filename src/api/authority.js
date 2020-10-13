@@ -6,7 +6,7 @@ import request from "@/utils/request";
  */
 export function addPermissions(data) {
   return request({
-    url: `/hellozj-admin/permission/addPermissions`,
+    url: `/water-facade-user/permission/addPermissions`,
     method: "post",
     data
   });
@@ -18,7 +18,7 @@ export function addPermissions(data) {
  */
 export function updatePermissions(data) {
   return request({
-    url: `/hellozj-admin/permission/updatePermissions`,
+    url: `/water-facade-user/permission/updatePermissions`,
     method: "post",
     data
   });
@@ -30,7 +30,7 @@ export function updatePermissions(data) {
  */
 export function deletePermission(params) {
   return request({
-    url: `/hellozj-admin/permission/deletePermission`,
+    url: `/water-facade-user/permission/deletePermission`,
     method: "post",
     params
   });
@@ -42,7 +42,7 @@ export function deletePermission(params) {
  */
 export function getPermission(params) {
   return request({
-    url: `/hellozj-admin/permission/getPermission`,
+    url: `/water-facade-user/permission/getPermission`,
     method: "post",
     params
   });
@@ -54,7 +54,7 @@ export function getPermission(params) {
  */
 export function findPermissions(params) {
   return request({
-    url: `/hellozj-admin/permission/findPermissions`,
+    url: `/water-facade-user/permission/findPermissions`,
     method: "post",
     params
   });
@@ -66,7 +66,7 @@ export function findPermissions(params) {
  */
 export function selectPermissionByMenuId(data) {
   return request({
-    url: `/hellozj-admin/permission/selectPermissionByMenuId`,
+    url: `/water-facade-user/permission/selectPermissionByMenuId`,
     method: "post",
     data
   });
@@ -78,7 +78,7 @@ export function selectPermissionByMenuId(data) {
  */
 export function selectPermissionByMenuIdAndRoleId(data) {
   return request({
-    url: `/hellozj-admin/permission/selectPermissionByMenuIdAndRoleId`,
+    url: `/water-facade-user/permission/selectPermissionByMenuIdAndRoleId`,
     method: "post",
     data
   });
@@ -90,7 +90,7 @@ export function selectPermissionByMenuIdAndRoleId(data) {
  */
 export function addRolePermission(data){
   return request({
-    url: `/hellozj-admin/rolePermission/addRolePermission`,
+    url: `/water-facade-user/rolePermission/addRolePermission`,
     method: "post",
     data
   });
@@ -102,7 +102,7 @@ export function addRolePermission(data){
  */
 export function selectPermissionByUserId(data) {
   return request({
-    url: `/hellozj-admin/permission/selectPermissionByUserId`,
+    url: `/water-facade-user/permission/selectPermissionByUserId`,
     method: "post",
     data
   });
